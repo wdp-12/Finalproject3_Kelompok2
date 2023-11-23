@@ -496,6 +496,7 @@
 
 /*Hamzah AREAAAAAAAAAAAAAAAAA */
 
+/* Hamzah profil  */
 .hamzah {
   background-color: #1e1e1e;
   display: flex;
@@ -619,5 +620,101 @@
   top: 1179px;
   left: 755px;
 }
+
+/* Hamzah profil end */
+
+/* thanks */
+
+.slide {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.slide .overlap-group-wrapper {
+  background-color: #ffffff;
+  width: 1920px;
+  height: 1080px;
+}
+
+.slide .overlap-group {
+  position: relative;
+  height: 1080px;
+}
+
+.slide .rectangle {
+  width: 320px;
+  left: 0;
+  position: absolute;
+  height: 1080px;
+  top: 0;
+}
+
+.slide .img {
+  width: 320px;
+  left: 320px;
+  position: absolute;
+  height: 1080px;
+  top: 0;
+}
+
+.slide .rectangle-2 {
+  width: 320px;
+  left: 640px;
+  position: absolute;
+  height: 1080px;
+  top: 0;
+}
+
+.slide .rectangle-3 {
+  width: 320px;
+  left: 1280px;
+  position: absolute;
+  height: 1080px;
+  top: 0;
+}
+
+.slide .rectangle-4 {
+  width: 320px;
+  left: 960px;
+  position: absolute;
+  height: 1080px;
+  top: 0;
+}
+
+.slide .rectangle-5 {
+  width: 320px;
+  left: 1600px;
+  position: absolute;
+  height: 1080px;
+  top: 0;
+}
+
+.slide .div {
+  width: 1920px;
+  left: 0;
+  background-color: #0000008a;
+  position: absolute;
+  height: 1080px;
+  top: 0;
+}
+
+.slide .thank-you {
+  position: absolute;
+  width: 1063px;
+  top: 449px;
+  left: 428px;
+  font-family: "Poppins-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 150px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 180px;
+}
+
+/* Thanks end */
 
 /* AREAA HAMZAH ENDS */
