@@ -493,3 +493,131 @@
   letter-spacing: 0;
   line-height: 64px;
 }
+
+/*Hamzah AREAAAAAAAAAAAAAAAAA */
+
+.hamzah {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.hamzah .overlap-wrapper {
+  background-color: #ffffff;
+  overflow: hidden;
+  width: 1920px;
+  height: 1080px;
+}
+
+.hamzah .overlap {
+  position: relative;
+  width: 2222px;
+  height: 1667px;
+  top: -587px;
+}
+
+.hamzah .rectangle {
+  position: absolute;
+  width: 1920px;
+  height: 1080px;
+  top: 587px;
+  left: 0;
+  background-color: #1e1e1e;
+}
+
+.hamzah .text-wrapper {
+  position: absolute;
+  width: 436px;
+  top: 686px;
+  left: 100px;
+  font-family: "Poppins-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #f67d12;
+  font-size: 64px;
+  letter-spacing: 0;
+  line-height: 76.8px;
+}
+
+.hamzah .bio-hamzah {
+  position: absolute;
+  width: 436px;
+  height: 480px;
+  top: 886px;
+  left: 100px;
+  font-family: "Poppins-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 32px;
+  letter-spacing: 0;
+  line-height: 48px;
+}
+
+.hamzah .fotonehamzah {
+  position: absolute;
+  width: 1203px;
+  height: 854px;
+  top: 98px;
+  left: 954px;
+  background-color: #f67d12;
+  border-radius: 60px;
+  transform: rotate(10deg);
+}
+
+.hamzah .group {
+  position: absolute;
+  width: 693px;
+  height: 881px;
+  top: 579px;
+  left: 1138px;
+  transform: rotate(12.84deg);
+}
+
+.hamzah .overlap-group {
+  position: relative;
+  width: 1045px;
+  height: 1100px;
+  top: -77px;
+  left: -168px;
+}
+
+.hamzah .img {
+  position: absolute;
+  width: 859px;
+  height: 932px;
+  top: 84px;
+  left: 93px;
+  transform: rotate(-12.84deg);
+  border-radius: 30px;
+
+}
+
+.hamzah .rectangle-2 {
+  position: absolute;
+  width: 698px;
+  height: 886px;
+  top: 74px;
+  left: 166px;
+  border-radius: 30px;
+  border: 5px solid;
+  border-color: #ffffff;
+}
+
+.hamzah .rectangle-3 {
+  position: absolute;
+  width: 533px;
+  height: 611px;
+  top: 595px;
+  left: 578px;
+}
+
+.hamzah .rectangle-4 {
+  position: absolute;
+  width: 257px;
+  height: 280px;
+  top: 1179px;
+  left: 755px;
+}
+
+/* AREAA HAMZAH ENDS */
