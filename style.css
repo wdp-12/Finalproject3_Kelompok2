@@ -497,7 +497,7 @@
 /*Hamzah AREAAAAAAAAAAAAAAAAA */
 
 .hamzah {
-  background-color: #ffffff;
+  background-color: #1e1e1e;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -580,17 +580,15 @@
   height: 1100px;
   top: -77px;
   left: -168px;
+
 }
 
-.hamzah .img {
-  position: absolute;
-  width: 859px;
-  height: 932px;
-  top: 84px;
-  left: 93px;
-  transform: rotate(-12.84deg);
+.hamzah .rectangle-2 .img {
+  width: 698px;
+  height: 886px;
+  top: 74px;
+  left: 166px;
   border-radius: 30px;
-
 }
 
 .hamzah .rectangle-2 {
@@ -606,10 +604,12 @@
 
 .hamzah .rectangle-3 {
   position: absolute;
-  width: 533px;
-  height: 611px;
-  top: 595px;
-  left: 578px;
+  top: 635px;
+  left: 630px;
+  width: 409px;
+  height: 490px;
+  transform: rotate(-17.367deg);
+  border-radius: 30px;
 }
 
 .hamzah .rectangle-4 {
