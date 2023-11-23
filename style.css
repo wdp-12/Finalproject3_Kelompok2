@@ -623,21 +623,18 @@
   justify-content: center;
   width: 100%;
 }
-
 #rangga .overlap-wrapper {
   background-color: #ffffff;
   overflow: hidden;
   width: 1920px;
   height: 1080px;
 }
-
 #rangga .overlap {
   position: relative;
   width: 2222px;
   height: 1667px;
   top: -587px;
 }
-
 #rangga .rectangle {
   position: absolute;
   width: 1920px;
@@ -646,7 +643,6 @@
   left: 0;
   background-color: #1e1e1e;
 }
-
 #rangga .text-wrapper {
   position: absolute;
   width: 436px;
@@ -682,7 +678,6 @@
   border-radius: 60px;
   transform: rotate(10deg);
 }
-
 #rangga .group {
   position: absolute;
   width: 693px;
@@ -691,7 +686,6 @@
   left: 1138px;
   transform: rotate(12.84deg);
 }
-
 #rangga .overlap-group {
   position: relative;
   width: 1045px;
