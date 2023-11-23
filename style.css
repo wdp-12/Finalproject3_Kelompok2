@@ -7,6 +7,7 @@
   font-family: 'Poppins', sans-serif;
 }
 
+/*Hero Section*/
 #homepage {
   background-color: #1e1e1e;
   display: flex;
@@ -91,7 +92,7 @@
   left: 68px;
   font-weight: 700;
   color: #ffffff;
-  font-size: 150px;
+  font-size: 100px;
   letter-spacing: 0;
   line-height: 180px;
 }
@@ -171,3 +172,241 @@
   line-height: 38.4px;
   white-space: nowrap;
 }
+
+/*Section 2*/
+#section2 {
+  background-color: #1e1e1e;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+#section2 .div {
+  background-color: #1e1e1e;
+  overflow: hidden;
+  width: 1920px;
+  height: 1080px;
+  position: relative;
+}
+
+#section2 .overlap {
+  position: absolute;
+  width: 1631px;
+  height: 1282px;
+  top: -565px;
+  left: -641px;
+}
+
+#section2 .rectangle {
+  position: absolute;
+  width: 1213px;
+  height: 864px;
+  top: 99px;
+  left: 66px;
+  background-color: #f67d12;
+  border-radius: 30px;
+  transform: rotate(170deg);
+}
+
+#section2 .img {
+  position: absolute;
+  width: 880px;
+  height: 607px;
+  top: 665px;
+  left: 741px;
+}
+
+#section2 .rectangle-2 {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  top: 838px;
+  left: 1501px;
+  background-color: #d9d9d9;
+}
+
+#section2 .rectangle-3 {
+  position: absolute;
+  width: 880px;
+  height: 607px;
+  top: 675px;
+  left: 751px;
+  background-color: #ffffff;
+  border-radius: 30px;
+}
+
+#section2 .rectangle-4 {
+  position: absolute;
+  width: 885px;
+  height: 612px;
+  top: 662px;
+  left: 738px;
+  border-radius: 30px;
+  border: 5px solid;
+  border-color: #ffffff;
+}
+
+#section2 .overlap-group {
+  position: absolute;
+  width: 740px;
+  height: 173px;
+  top: 807px;
+  left: 1080px;
+  border-radius: 30px;
+  border: 3px solid;
+  border-color: #f67d12;
+}
+
+#section2 .text-wrapper {
+  position: absolute;
+  top: 89px;
+  left: 66px;
+  font-weight: 400;
+  color: #f8f8f8;
+  font-size: 24px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 36px;
+  white-space: nowrap;
+}
+
+#section2 .text-wrapper-2 {
+  position: absolute;
+  top: 89px;
+  left: 324px;
+  font-weight: 400;
+  color: #f8f8f8;
+  font-size: 24px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 36px;
+  white-space: nowrap;
+}
+
+#section2 .text-wrapper-3 {
+  position: absolute;
+  top: 89px;
+  left: 600px;
+  font-weight: 400;
+  color: #f8f8f8;
+  font-size: 24px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 36px;
+  white-space: nowrap;
+}
+
+#section2 .text-wrapper-4 {
+  position: absolute;
+  top: 41px;
+  left: 106px;
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 40px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 48px;
+  white-space: nowrap;
+}
+
+#section2 .text-wrapper-5 {
+  position: absolute;
+  top: 41px;
+  left: 328px;
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 40px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 48px;
+  white-space: nowrap;
+}
+
+#section2 .text-wrapper-6 {
+  position: absolute;
+  top: 41px;
+  left: 574px;
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 40px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 48px;
+  white-space: nowrap;
+}
+
+#section2 .overlap-group-2 {
+  position: absolute;
+  width: 892px;
+  height: 186px;
+  top: 804px;
+  left: 98px;
+}
+
+#section2 .rectangle-5 {
+  position: absolute;
+  width: 880px;
+  height: 173px;
+  top: 12px;
+  left: 12px;
+  background-color: #ffffff;
+  border-radius: 30px;
+}
+
+#section2 .rectangle-6 {
+  position: absolute;
+  width: 880px;
+  height: 173px;
+  top: 2px;
+  left: 2px;
+}
+
+#section2 .rectangle-7 {
+  position: absolute;
+  width: 885px;
+  height: 178px;
+  top: 0;
+  left: 0;
+  border-radius: 30px;
+  border: 5px solid;
+  border-color: #ffffff;
+}
+
+#section2 .overlap-2 {
+  position: absolute;
+  width: 740px;
+  height: 607px;
+  top: 100px;
+  left: 1080px;
+  background-color: #1e1e1e;
+  border-radius: 30px;
+  border: 3px solid;
+  border-color: #f67d12;
+}
+
+#section2 .s-team {
+  position: absolute;
+  width: 600px;
+  top: 192px;
+  left: 64px;
+  font-weight: 400;
+  color: #f8f8f8;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: 36px;
+}
+
+#section2 .text-wrapper-7 {
+  position: absolute;
+  width: 540px;
+  top: 92px;
+  left: 64px;
+  font-weight: 600;
+  color: #f67d12;
+  font-size: 64px;
+  letter-spacing: 0;
+  line-height: 76.8px;
+}
+
+
