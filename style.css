@@ -409,4 +409,87 @@
   line-height: 76.8px;
 }
 
+/*Section 3*/
+#section3 {
+  background-color: #1e1e1e;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
 
+#section3 .overlap-wrapper {
+  background-color: #1e1e1e;
+  overflow: hidden;
+  width: 1920px;
+  height: 1080px;
+}
+
+#section3 .overlap {
+  position: relative;
+  top: -565px;
+  left: -221px;
+  width: 2060px;
+  height: 1564px;
+}
+
+#section3 .overlap-group {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 2060px;
+  height: 1564px;
+}
+
+#section3 .rectangle {
+  position: absolute;
+  width: 1213px;
+  height: 864px;
+  top: 99px;
+  left: 66px;
+  background-color: #f67d12;
+  border-radius: 30px;
+  transform: rotate(170deg);
+}
+
+#section3 .img {
+  position: absolute;
+  width: 917px;
+  height: 917px;
+  top: 647px;
+  left: 1143px;
+}
+
+#section3 .text-wrapper {
+  position: absolute;
+  top: 640px;
+  left: 321px;
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 96px;
+  letter-spacing: 0;
+  line-height: 115.2px;
+  white-space: nowrap;
+}
+
+#section3 .member {
+  position: absolute;
+  top: 1180px;
+  left: 321px;
+  font-weight: 500;
+  color: #f8f8f8;
+  font-size: 32px;
+  letter-spacing: 0;
+  line-height: 64px;
+}
+
+#section3 .element {
+  position: absolute;
+  top: 1180px;
+  left: 892px;
+  font-weight: 500;
+  color: #f8f8f8;
+  font-size: 32px;
+  letter-spacing: 0;
+  line-height: 64px;
+}
