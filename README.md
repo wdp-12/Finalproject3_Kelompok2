@@ -3,7 +3,7 @@
 ## Team 👤
 - [Hamzah Nasrulloh]()
 - [Muhammad Rangga Saputra](https://instagram.com/rangga_rgs)
-- [Ari Zidane]()
+- [M. Ari Zidan Sy](https://instagram.com/z.id21)
 - [Tamara Utami]()
 - [Yabsir Aditya]()
 - [Dimas Erlangga]()
