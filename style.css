@@ -1090,6 +1090,122 @@ body {
   left: 761px;
 }
 
+/*Profil Yabsir*/
+#yabsir {
+  background-color: #1e1e1e;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+#yabsir .overlap-wrapper {
+  background-color: #ffffff;
+  overflow: hidden;
+  width: 1920px;
+  height: 1080px;
+}
+#yabsir .overlap {
+  position: relative;
+  width: 2222px;
+  height: 1667px;
+  top: -587px;
+}
+#yabsir .rectangle {
+  position: absolute;
+  width: 1920px;
+  height: 1080px;
+  top: 587px;
+  left: 0;
+  background-color: #1e1e1e;
+}
+#yabsir .text-wrapper {
+  position: absolute;
+  width: 436px;
+  top: 686px;
+  left: 100px;
+  font-weight: 600;
+  color: #f67d12;
+  font-size: 50px;
+  letter-spacing: 0;
+  line-height: 76.8px;
+}
+
+#yabsir .bio-tamara {
+  position: absolute;
+  width: 436px;
+  height: 480px;
+  top: 886px;
+  left: 100px;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 25px;
+  letter-spacing: 0;
+  line-height: 48px;
+}
+
+#yabsir .div {
+  position: absolute;
+  width: 1203px;
+  height: 854px;
+  top: 98px;
+  left: 954px;
+  background-color: #f67d12;
+  border-radius: 60px;
+  transform: rotate(10deg);
+}
+#yabsir .group {
+  position: absolute;
+  width: 693px;
+  height: 881px;
+  top: 579px;
+  left: 1138px;
+  transform: rotate(12.84deg);
+}
+
+#yabsir .overlap-group {
+  position: relative;
+  width: 1045px;
+  height: 1100px;
+  top: -77px;
+  left: -168px;
+}
+
+#yabsir .img {
+  position: absolute;
+  width: 859px;
+  height: 932px;
+  top: 84px;
+  left: 93px;
+  transform: rotate(-12.84deg);
+}
+
+#yabsir .rectangle-2 {
+  position: absolute;
+  width: 698px;
+  height: 886px;
+  top: 74px;
+  left: 166px;
+  border-radius: 30px;
+  border: 5px solid;
+  border-color: #ffffff;
+}
+
+#yabsir .rectangle-3 {
+  position: absolute;
+  width: 533px;
+  height: 611px;
+  top: 595px;
+  left: 578px;
+}
+
+#yabsir .rectangle-4 {
+  position: absolute;
+  width: 245px;
+  height: 269px;
+  top: 1185px;
+  left: 761px;
+}
+
 /*Footer*/
 #footer {
   background-color: #ffffff;
