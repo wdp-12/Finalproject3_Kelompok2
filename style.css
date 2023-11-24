@@ -22,7 +22,6 @@ body {
 
 #homepage .div {
   background-color: #1e1e1e;
-  /* overflow: hidden; */
   width: 1920px;
   height: 1080px;
   position: relative;
@@ -109,7 +108,6 @@ body {
   top: 98px;
   left: 98px;
   border-radius: 30px;
-  /* overflow: hidden; */
   z-index: 1;
 }
 
@@ -191,7 +189,6 @@ body {
 
 #section2 .div {
   background-color: #1e1e1e;
-  /* overflow: hidden; */
   width: 1920px;
   height: 1080px;
   position: relative;
@@ -429,7 +426,6 @@ body {
 
 #section3 .overlap-wrapper {
   background-color: #1e1e1e;
-  /* overflow: hidden; */
   width: 1920px;
   height: 1080px;
 }
@@ -471,7 +467,7 @@ body {
 
 #section3 .text-wrapper {
   position: absolute;
-  top: 640px;
+  top: 740px;
   left: 321px;
   font-weight: 600;
   color: #ffffff;
@@ -483,7 +479,7 @@ body {
 
 #section3 .member {
   position: absolute;
-  top: 1180px;
+  top: 1050px;
   left: 321px;
   font-weight: 500;
   color: #f8f8f8;
@@ -494,7 +490,7 @@ body {
 
 #section3 .element {
   position: absolute;
-  top: 1180px;
+  top: 1050px;
   left: 892px;
   font-weight: 500;
   color: #f8f8f8;
@@ -513,7 +509,6 @@ body {
 }
 #ari .overlap-wrapper {
   background-color: #ffffff;
-  /* overflow: hidden; */
   width: 1920px;
   height: 1080px;
 }
@@ -559,13 +554,13 @@ body {
 
 #ari .div {
   position: absolute;
-  width: 844px;
-  height: 844px;
-  top: 718px;
-  left: 654px;
+  width: 750px;
+  height: 750px;
+  top: 650px;
+  left: 660px;
   background-color: #f67d12;
   border-radius: 60px;
-  transform: rotate(25deg);
+  transform: rotate(24deg);
 }
 #ari .group {
   position: absolute;
@@ -586,18 +581,18 @@ body {
 #ari .img {
   position: absolute;
   width: 859px;
-  height: 932px;
-  top: 84px;
-  left: 93px;
+  height: 1000px;
+  top: 83px;
+  left: 100px;
   transform: rotate(-12.84deg);
 }
 
 #ari .rectangle-2 {
   position: absolute;
-  width: 698px;
-  height: 886px;
-  top: 74px;
-  left: 166px;
+  width: 690px;
+  height: 878px;
+  top: 141px;
+  left: 181px;
   border-radius: 30px;
   border: 5px solid;
   border-color: #ffffff;
@@ -629,7 +624,6 @@ body {
 }
 #dimas .overlap-wrapper {
   background-color: #ffffff;
-  overflow: visible;
   width: 1920px;
   height: 1080px;
 }
@@ -675,13 +669,13 @@ body {
 
 #dimas .div {
   position: absolute;
-  width: 603px;
-  height: 654px;
-  top: 838px;
-  left: 754px;
+  width: 750px;
+  height: 750px;
+  top: 650px;
+  left: 660px;
   background-color: #f67d12;
   border-radius: 60px;
-  transform: rotate(-50deg);
+  transform: rotate(24deg);
 }
 #dimas .group {
   position: absolute;
@@ -702,18 +696,18 @@ body {
 #dimas .img {
   position: absolute;
   width: 859px;
-  height: 932px;
-  top: 84px;
-  left: 93px;
+  height: 1000px;
+  top: 83px;
+  left: 100px;
   transform: rotate(-12.84deg);
 }
 
 #dimas .rectangle-2 {
   position: absolute;
-  width: 698px;
-  height: 886px;
-  top: 74px;
-  left: 166px;
+  width: 690px;
+  height: 878px;
+  top: 141px;
+  left: 181px;
   border-radius: 30px;
   border: 5px solid;
   border-color: #ffffff;
@@ -746,7 +740,6 @@ body {
 
 #hamzah .overlap-wrapper {
   background-color: #ffffff;
-  /* overflow: hidden; */
   width: 1920px;
   height: 1080px;
 }
@@ -795,13 +788,13 @@ body {
 
 #hamzah .div {
   position: absolute;
-  width: 703px;
-  height: 454px;
-  top: 968px;
-  left: 954px;
+  width: 750px;
+  height: 750px;
+  top: 650px;
+  left: 660px;
   background-color: #f67d12;
   border-radius: 60px;
-  transform: rotate(50deg);
+  transform: rotate(24deg);
 }
 
 #hamzah .group {
@@ -824,18 +817,18 @@ body {
 #hamzah .img {
   position: absolute;
   width: 859px;
-  height: 932px;
-  top: 84px;
-  left: 93px;
+  height: 1000px;
+  top: 83px;
+  left: 100px;
   transform: rotate(-12.84deg);
 }
 
 #hamzah .rectangle-2 {
   position: absolute;
-  width: 698px;
-  height: 886px;
-  top: 74px;
-  left: 166px;
+  width: 690px;
+  height: 878px;
+  top: 141px;
+  left: 181px;
   border-radius: 30px;
   border: 5px solid;
   border-color: #ffffff;
@@ -867,7 +860,6 @@ body {
 }
 #rangga .overlap-wrapper {
   background-color: #ffffff;
-  /* overflow: hidden; */
   width: 1920px;
   height: 1080px;
 }
@@ -913,13 +905,13 @@ body {
 
 #rangga .div {
   position: absolute;
-  width: 903px;
-  height: 854px;
-  top: 598px;
-  left: 554px;
+  width: 750px;
+  height: 750px;
+  top: 650px;
+  left: 660px;
   background-color: #f67d12;
   border-radius: 60px;
-  transform: rotate(23deg);
+  transform: rotate(24deg);
 }
 #rangga .group {
   position: absolute;
@@ -940,18 +932,18 @@ body {
 #rangga .img {
   position: absolute;
   width: 859px;
-  height: 932px;
-  top: 84px;
-  left: 93px;
+  height: 1000px;
+  top: 83px;
+  left: 100px;
   transform: rotate(-12.84deg);
 }
 
 #rangga .rectangle-2 {
   position: absolute;
-  width: 698px;
-  height: 886px;
-  top: 74px;
-  left: 166px;
+  width: 690px;
+  height: 878px;
+  top: 141px;
+  left: 181px;
   border-radius: 30px;
   border: 5px solid;
   border-color: #ffffff;
@@ -983,7 +975,6 @@ body {
 }
 #tamara .overlap-wrapper {
   background-color: #ffffff;
-  /* overflow: hidden; */
   width: 1920px;
   height: 1080px;
 }
@@ -1029,13 +1020,13 @@ body {
 
 #tamara .div {
   position: absolute;
-  width: 503px;
-  height: 554px;
-  top: 898px;
-  left: 654px;
+  width: 750px;
+  height: 750px;
+  top: 650px;
+  left: 660px;
   background-color: #f67d12;
   border-radius: 60px;
-  transform: rotate(40deg);
+  transform: rotate(24deg);
 }
 #tamara .group {
   position: absolute;
@@ -1057,18 +1048,18 @@ body {
 #tamara .img {
   position: absolute;
   width: 859px;
-  height: 932px;
-  top: 84px;
-  left: 93px;
+  height: 1000px;
+  top: 83px;
+  left: 100px;
   transform: rotate(-12.84deg);
 }
 
 #tamara .rectangle-2 {
   position: absolute;
-  width: 698px;
-  height: 886px;
-  top: 74px;
-  left: 166px;
+  width: 690px;
+  height: 878px;
+  top: 141px;
+  left: 181px;
   border-radius: 30px;
   border: 5px solid;
   border-color: #ffffff;
@@ -1100,7 +1091,6 @@ body {
 }
 #yabsir .overlap-wrapper {
   background-color: #ffffff;
-  overflow: hidden;
   width: 1920px;
   height: 1080px;
 }
@@ -1145,14 +1135,15 @@ body {
 
 #yabsir .div {
   position: absolute;
-  width: 1203px;
-  height: 854px;
-  top: 98px;
-  left: 954px;
+  width: 750px;
+  height: 750px;
+  top: 650px;
+  left: 660px;
   background-color: #f67d12;
   border-radius: 60px;
-  transform: rotate(10deg);
+  transform: rotate(24deg);
 }
+
 #yabsir .group {
   position: absolute;
   width: 693px;
@@ -1173,18 +1164,18 @@ body {
 #yabsir .img {
   position: absolute;
   width: 859px;
-  height: 932px;
-  top: 84px;
-  left: 93px;
+  height: 1000px;
+  top: 83px;
+  left: 100px;
   transform: rotate(-12.84deg);
 }
 
 #yabsir .rectangle-2 {
   position: absolute;
-  width: 698px;
-  height: 886px;
-  top: 74px;
-  left: 166px;
+  width: 690px;
+  height: 878px;
+  top: 141px;
+  left: 181px;
   border-radius: 30px;
   border: 5px solid;
   border-color: #ffffff;
