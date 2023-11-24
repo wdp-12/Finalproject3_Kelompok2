@@ -22,12 +22,22 @@ function updateTextLoading() {
 
     const randomIndex = Math.floor(Math.random() * textLoadingList.length);
     const newText = textLoadingList[randomIndex];
+    const preTitleElement = document.querySelector('.pre-title');
     const preTextElement = document.querySelector('.pre-text');
     
-    preTextElement.style.opacity = "0";
-
     setTimeout(() => {
-        preTextElement.innerHTML = `Loading: ${newText}`;
+        preTitleElement.innerHTML = 'Loading.'
+        setTimeout(() => {
+            preTitleElement.innerHTML = 'Loading..'
+            setTimeout(() => {
+                preTitleElement.innerHTML = 'Loading...'
+            }, 1000);
+        }, 700);
+    }, 1);
+    
+    preTextElement.style.opacity = "0";
+    setTimeout(() => {
+        preTextElement.innerHTML = `${newText}`;
         preTextElement.style.opacity = "1";
     }, 500);
 }
