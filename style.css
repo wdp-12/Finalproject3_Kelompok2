@@ -22,7 +22,7 @@ body {
 
 #homepage .div {
   background-color: #1e1e1e;
-  overflow: hidden;
+  /* overflow: hidden; */
   width: 1920px;
   height: 1080px;
   position: relative;
@@ -48,11 +48,12 @@ body {
   position: absolute;
   width: 1203px;
   height: 854px;
-  top: 98px;
+  top: 198px;
   left: 65px;
   background-color: #f67d12;
   border-radius: 60px;
   transform: rotate(10deg);
+  z-index: 0;
 }
 
 #homepage .group {
@@ -108,7 +109,8 @@ body {
   top: 98px;
   left: 98px;
   border-radius: 30px;
-  overflow: hidden;
+  /* overflow: hidden; */
+  z-index: 1;
 }
 
 #homepage .rectangle-2 {
@@ -133,16 +135,17 @@ body {
   position: absolute;
   width: 693px;
   height: 880px;
-  top: 2px;
-  left: 2px;
+  top: 22px;
+  border-radius: 30px;
+  left: 22px;
   object-fit: cover;
   overflow: hidden;
 }
 
 #homepage .rectangle-3 {
   position: absolute;
-  width: 698px;
-  height: 886px;
+  width: 693px;
+  height: 880px;
   top: 0;
   left: 0;
   border-radius: 30px;
@@ -188,7 +191,7 @@ body {
 
 #section2 .div {
   background-color: #1e1e1e;
-  overflow: hidden;
+  /* overflow: hidden; */
   width: 1920px;
   height: 1080px;
   position: relative;
@@ -211,6 +214,7 @@ body {
   background-color: #f67d12;
   border-radius: 30px;
   transform: rotate(170deg);
+  z-index: 0;
 }
 
 #section2 .img {
@@ -346,6 +350,7 @@ body {
   height: 186px;
   top: 804px;
   left: 98px;
+  z-index: 1;
 }
 
 #section2 .rectangle-5 {
@@ -424,7 +429,7 @@ body {
 
 #section3 .overlap-wrapper {
   background-color: #1e1e1e;
-  overflow: hidden;
+  /* overflow: hidden; */
   width: 1920px;
   height: 1080px;
 }
@@ -447,13 +452,13 @@ body {
 
 #section3 .rectangle {
   position: absolute;
-  width: 1213px;
-  height: 864px;
-  top: 99px;
-  left: 66px;
+  width: 744px;
+  height: 744px;
+  top: 499px;
+  left: 566px;
   background-color: #f67d12;
   border-radius: 30px;
-  transform: rotate(170deg);
+  transform: rotate(110deg);
 }
 
 #section3 .img {
@@ -498,6 +503,122 @@ body {
   line-height: 64px;
 }
 
+/*Profil Ari*/
+#ari {
+  background-color: #1e1e1e;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+#ari .overlap-wrapper {
+  background-color: #ffffff;
+  /* overflow: hidden; */
+  width: 1920px;
+  height: 1080px;
+}
+#ari .overlap {
+  position: relative;
+  width: 2222px;
+  height: 1667px;
+  top: -587px;
+}
+#ari .rectangle {
+  position: absolute;
+  width: 1920px;
+  height: 1080px;
+  top: 587px;
+  left: 0;
+  background-color: #1e1e1e;
+}
+#ari .text-wrapper {
+  position: absolute;
+  width: 436px;
+  top: 686px;
+  left: 100px;
+  font-weight: 600;
+  color: #f67d12;
+  font-size: 50px;
+  letter-spacing: 0;
+  line-height: 76.8px;
+}
+
+#ari .bio-ari {
+  position: absolute;
+  width: 436px;
+  height: 480px;
+  top: 886px;
+  left: 100px;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 25px;
+  letter-spacing: 0;
+  line-height: 48px;
+  z-index: 1;
+}
+
+#ari .div {
+  position: absolute;
+  width: 844px;
+  height: 844px;
+  top: 718px;
+  left: 654px;
+  background-color: #f67d12;
+  border-radius: 60px;
+  transform: rotate(25deg);
+}
+#ari .group {
+  position: absolute;
+  width: 693px;
+  height: 881px;
+  top: 579px;
+  left: 1138px;
+  transform: rotate(12.84deg);
+}
+#ari .overlap-group {
+  position: relative;
+  width: 1045px;
+  height: 1100px;
+  top: -77px;
+  left: -168px;
+}
+
+#ari .img {
+  position: absolute;
+  width: 859px;
+  height: 932px;
+  top: 84px;
+  left: 93px;
+  transform: rotate(-12.84deg);
+}
+
+#ari .rectangle-2 {
+  position: absolute;
+  width: 698px;
+  height: 886px;
+  top: 74px;
+  left: 166px;
+  border-radius: 30px;
+  border: 5px solid;
+  border-color: #ffffff;
+}
+
+#ari .rectangle-3 {
+  position: absolute;
+  width: 533px;
+  height: 611px;
+  top: 595px;
+  left: 578px;
+}
+
+#ari .rectangle-4 {
+  position: absolute;
+  width: 245px;
+  height: 269px;
+  top: 1185px;
+  left: 761px;
+}
+
 /*Profil Dimas*/
 #dimas {
   background-color: #1e1e1e;
@@ -508,7 +629,7 @@ body {
 }
 #dimas .overlap-wrapper {
   background-color: #ffffff;
-  overflow: hidden;
+  overflow: visible;
   width: 1920px;
   height: 1080px;
 }
@@ -549,17 +670,18 @@ body {
   font-size: 25px;
   letter-spacing: 0;
   line-height: 48px;
+  z-index: 1;
 }
 
 #dimas .div {
   position: absolute;
-  width: 1203px;
-  height: 854px;
-  top: 98px;
-  left: 954px;
+  width: 603px;
+  height: 654px;
+  top: 838px;
+  left: 754px;
   background-color: #f67d12;
   border-radius: 60px;
-  transform: rotate(10deg);
+  transform: rotate(-50deg);
 }
 #dimas .group {
   position: absolute;
@@ -624,7 +746,7 @@ body {
 
 #hamzah .overlap-wrapper {
   background-color: #ffffff;
-  overflow: hidden;
+  /* overflow: hidden; */
   width: 1920px;
   height: 1080px;
 }
@@ -668,17 +790,18 @@ body {
   font-size: 25px;
   letter-spacing: 0;
   line-height: 48px;
+  z-index: 1;
 }
 
 #hamzah .div {
   position: absolute;
-  width: 1203px;
-  height: 854px;
-  top: 98px;
+  width: 703px;
+  height: 454px;
+  top: 968px;
   left: 954px;
   background-color: #f67d12;
   border-radius: 60px;
-  transform: rotate(10deg);
+  transform: rotate(50deg);
 }
 
 #hamzah .group {
@@ -744,7 +867,7 @@ body {
 }
 #rangga .overlap-wrapper {
   background-color: #ffffff;
-  overflow: hidden;
+  /* overflow: hidden; */
   width: 1920px;
   height: 1080px;
 }
@@ -785,17 +908,18 @@ body {
   font-size: 25px;
   letter-spacing: 0;
   line-height: 48px;
+  z-index: 1;
 }
 
 #rangga .div {
   position: absolute;
-  width: 1203px;
+  width: 903px;
   height: 854px;
-  top: 98px;
-  left: 954px;
+  top: 598px;
+  left: 554px;
   background-color: #f67d12;
   border-radius: 60px;
-  transform: rotate(10deg);
+  transform: rotate(23deg);
 }
 #rangga .group {
   position: absolute;
@@ -859,7 +983,7 @@ body {
 }
 #tamara .overlap-wrapper {
   background-color: #ffffff;
-  overflow: hidden;
+  /* overflow: hidden; */
   width: 1920px;
   height: 1080px;
 }
@@ -900,17 +1024,18 @@ body {
   font-size: 25px;
   letter-spacing: 0;
   line-height: 48px;
+  z-index: 1;
 }
 
 #tamara .div {
   position: absolute;
-  width: 1203px;
-  height: 854px;
-  top: 98px;
-  left: 954px;
+  width: 503px;
+  height: 554px;
+  top: 898px;
+  left: 654px;
   background-color: #f67d12;
   border-radius: 60px;
-  transform: rotate(10deg);
+  transform: rotate(40deg);
 }
 #tamara .group {
   position: absolute;
@@ -1071,10 +1196,21 @@ body {
   align-items: center;
 }
 
+.preloader .pre-title {
+  position: absolute;
+  font-weight: 700;
+  font-size: 17px;
+  top: 56.5vh;
+  left: 47.5vw;
+  transition: all .5s;
+  color: #f1f1f1;
+}
+
+
 .preloader .pre-text {
   position: absolute;
   font-weight: 700;
-  top: 56vh;
+  top: 59vh;
   opacity: 0;
   transition: all .5s;
   color: #f1f1f1;
