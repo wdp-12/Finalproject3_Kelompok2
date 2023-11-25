@@ -55,9 +55,9 @@ function hidePreloader() {
 }
 
 updateTextLoading()
+updateTextInterval = setInterval(updateTextLoading, 3000);
 window.addEventListener("load", () => {
-    updateTextInterval = setInterval(updateTextLoading, 3000);
-    setTimeout(hidePreloader, 1);
+    setTimeout(hidePreloader, 8000);
 });
 
 
