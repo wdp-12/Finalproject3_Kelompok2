@@ -130,7 +130,7 @@ document.addEventListener('scroll', () => {
     }
 
     // section 3
-    if (scrollValue > 1860 && scrollValue < 2900) {
+    if (scrollValue > 1860 && scrollValue < 3600) {
         const divider = scrollValue - 1860
 
         const sec3 = document.querySelector('#section3 .overlap-wrapper');
@@ -153,14 +153,17 @@ document.addEventListener('scroll', () => {
         document.querySelector('#section3 .overlap-wrapper').style.transform = `translate3d( 0, ${divider * 0.8}px, 0)`;
     }
     if (scrollValue > 2836) {
+        document.querySelector('#section3 .overlap-wrapper').style.transition = `filter .7s ease-in`;
         document.querySelector('#section3 .overlap-wrapper').style.filter = `blur(9px)`;
     } else {
         document.querySelector('#section3 .overlap-wrapper').style.filter = `blur(0)`;
     }
-
+    
     if (scrollValue > 3740 && scrollValue < 4819) {
         const divider = scrollValue - 3740
         document.querySelector('#ari .overlap-wrapper').style.transform = `translate3d( 0, ${divider * 0.8}px, 0)`;
+        document.querySelector('#ari .overlap-wrapper .div').style.transform = `translate3d( -${divider * 0.8}px, 0, 0) rotate(${divider * 0.1 + 24}deg)`;
+        document.querySelector('#ari .overlap-wrapper').style.transition = `filter .7s ease-in`;
         document.querySelector('#ari .overlap-wrapper').style.filter = `blur(9px)`;
     } else {
         document.querySelector('#ari .overlap-wrapper').style.filter = `blur(0)`;
@@ -169,6 +172,8 @@ document.addEventListener('scroll', () => {
     if (scrollValue > 4820 && scrollValue < 5899) {
         const divider = scrollValue - 4820
         document.querySelector('#dimas .overlap-wrapper').style.transform = `translate3d( 0, ${divider * 0.9}px, 0)`;
+        document.querySelector('#dimas .overlap-wrapper .div').style.transform = `translate3d( ${divider * 0.8}px, 0, 0) rotate(${divider * 0.1 + 24}deg)`;
+        document.querySelector('#dimas .overlap-wrapper').style.transition = `filter .7s ease-in`;
         document.querySelector('#dimas .overlap-wrapper').style.filter = `blur(9px)`;
     } else {
         document.querySelector('#dimas .overlap-wrapper').style.filter = `blur(0)`;
@@ -177,6 +182,8 @@ document.addEventListener('scroll', () => {
     if (scrollValue > 5900 && scrollValue < 6979) {
         const divider = scrollValue - 5900
         document.querySelector('#hamzah .overlap-wrapper').style.transform = `translate3d( 0, ${divider * 0.9}px, 0)`;
+        document.querySelector('#hamzah .overlap-wrapper .div').style.transform = `translate3d( -${divider * 0.8}px, 0, 0) rotate(${divider * 0.1 + 24}deg)`;
+        document.querySelector('#hamzah .overlap-wrapper').style.transition = `filter .7s ease-in`;
         document.querySelector('#hamzah .overlap-wrapper').style.filter = `blur(9px)`;
     } else {
         document.querySelector('#hamzah .overlap-wrapper').style.filter = `blur(0)`;
@@ -185,7 +192,9 @@ document.addEventListener('scroll', () => {
     if (scrollValue > 6980 && scrollValue < 8059) {
         const divider = scrollValue - 6980
         document.querySelector('#rangga .overlap-wrapper').style.transform = `translate3d( 0, ${divider * 0.9}px, 0)`;
+        document.querySelector('#rangga .overlap-wrapper .div').style.transform = `translate3d( ${divider * 0.8}px, 0, 0) rotate(${divider * 0.1 + 24}deg)`;
         document.querySelector('#rangga .overlap-wrapper').style.filter = `blur(9px)`;
+        document.querySelector('#rangga .overlap-wrapper').style.transition = `filter .7s ease-in`;
     } else {
         document.querySelector('#rangga .overlap-wrapper').style.filter = `blur(0)`;
     }
@@ -193,6 +202,8 @@ document.addEventListener('scroll', () => {
     if (scrollValue > 8060 && scrollValue < 9139) {
         const divider = scrollValue - 8060
         document.querySelector('#tamara .overlap-wrapper').style.transform = `translate3d( 0, ${divider * 0.9}px, 0)`;
+        document.querySelector('#tamara .overlap-wrapper .div').style.transform = `translate3d( -${divider * 0.8}px, 0, 0) rotate(${divider * 0.1 + 24}deg)`;
+        document.querySelector('#tamara .overlap-wrapper').style.transition = `filter .7s ease-in`;
         document.querySelector('#tamara .overlap-wrapper').style.filter = `blur(9px)`;
     } else {
         document.querySelector('#tamara .overlap-wrapper').style.filter = `blur(0)`;
@@ -201,15 +212,34 @@ document.addEventListener('scroll', () => {
     if (scrollValue > 9140 && scrollValue < 10219) {
         const divider = scrollValue - 9140
         document.querySelector('#yabsir .overlap-wrapper').style.transform = `translate3d( 0, ${divider * 0.9}px, 0)`;
+        document.querySelector('#yabsir .overlap-wrapper .div').style.transform = `translate3d( ${divider * 0.8}px, 0, 0) rotate(${divider * 0.1 + 24}deg)`;
+        document.querySelector('#yabsir .overlap-wrapper').style.transition = `filter .7s ease-in`;
         document.querySelector('#yabsir .overlap-wrapper').style.filter = `blur(9px)`;
     } else {
         document.querySelector('#yabsir .overlap-wrapper').style.filter = `blur(0)`;
     }
 
-      // footer
-      if (scrollValue > 9999) {
+    // footer
+    if (scrollValue > 9999) {
         const divider = scrollValue - 9999
         document.querySelector('#footer .thank-you').style.transform = `translate3d( 0, ${divider * 0.5}px, 0)`;
+        if (scrollValue > 9999) {
+            document.querySelector('#footer img:nth-child(1)').style.filter = `blur(15px)`
+            document.querySelector('#footer img:nth-child(2)').style.filter = `blur(15px)`
+            document.querySelector('#footer img:nth-child(3)').style.filter = `blur(15px)`
+            document.querySelector('#footer img:nth-child(5)').style.filter = `blur(15px)`
+            document.querySelector('#footer img:nth-child(4)').style.filter = `blur(15px)`
+            document.querySelector('#footer img:nth-child(6)').style.filter = `blur(15px)`
+        }
+
+        if (scrollValue > 10198) {
+            document.querySelector('#footer img:nth-child(1)').style.filter = `blur(0)`
+            document.querySelector('#footer img:nth-child(2)').style.filter = `blur(0)`
+            document.querySelector('#footer img:nth-child(3)').style.filter = `blur(0)`
+            document.querySelector('#footer img:nth-child(5)').style.filter = `blur(0)`
+            document.querySelector('#footer img:nth-child(4)').style.filter = `blur(0)`
+            document.querySelector('#footer img:nth-child(6)').style.filter = `blur(0)`
+        }
     }
     
 });
