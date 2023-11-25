@@ -79,7 +79,7 @@ function snapToNextSection(sectionIds) {
     currentSectionIndex++
 }
 
-// ______[Parallax]______
+// ________[Parallax]________
 document.addEventListener('scroll', () => {
     const scrollValue = window.scrollY;
     console.log(scrollValue);
@@ -100,6 +100,33 @@ document.addEventListener('scroll', () => {
         }
         heroRect.style.transform = `translate3d(-${divider * 0.9}px, ${divider * 0.5}px, 0) rotate(10deg)`;
         heroImg.style.transform = `translate3d(-${divider * 0.7}px, -${divider * 0.3}px, 0)`;
+    }
+    
+    // section 2
+    if (scrollValue > 628 && scrollValue < 2160) {
+        const divider = scrollValue - 628
+
+        const sec2 = document.querySelector('#section2 .div');
+        const sec2RectOrange = document.querySelector('#section2 .overlap .rectangle');
+        const sec2Overlap2 = document.querySelector('#section2 .div .overlap-2');
+        const sec2Overlap3 = document.querySelector('#section2 .div .overlap-group-2');
+        const sec2Overlap4 = document.querySelector('#section2 .div .overlap-group');
+
+        if (divider > 1200) {
+            sec2.style.opacity = '0'
+        } else if (divider < 1200) {
+            sec2.style.opacity = '1'
+        }
+        sec2RectOrange.style.transform = `translate3d(-${divider * 2}px , ${divider * 1.3}px, 0) rotate(${divider * 0.3}deg)`;
+        if (divider > 100 && divider < 452) {
+            sec2Overlap2.style.transform = `translate3d( 0, ${divider * 0.5}px, 0)`;
+        }
+        if (divider > 100 && divider < 517) {
+            sec2Overlap4.style.transform = `translate3d( 0, -${divider * 0.2}px, 0)`;
+        }
+        if (divider > 378 && divider < 724) {
+            sec2Overlap3.style.transform = `translate3d( 0, ${divider * 0.5 - 378}px, 0)`;
+        }
     }
 
 });
