@@ -82,7 +82,7 @@ function snapToNextSection(sectionIds) {
 // ________[Parallax]________
 document.addEventListener('scroll', () => {
     const scrollValue = window.scrollY;
-    console.log(scrollValue);
+    // console.log(scrollValue);
     
     // section 1
     if (scrollValue > 0 && scrollValue < 1300) {
