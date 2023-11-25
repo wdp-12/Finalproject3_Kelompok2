@@ -54,8 +54,27 @@ function hidePreloader() {
     }, 2000);
 }
 
-window.addEventListener("load", function () {
-    updateTextLoading()
+updateTextLoading()
+window.addEventListener("load", () => {
     updateTextInterval = setInterval(updateTextLoading, 3000);
-    setTimeout(hidePreloader, 8000);
+    setTimeout(hidePreloader, 1);
 });
+
+
+// ________[Button Snap]________
+const ids = ['#homepage', '#section2', '#section3', '#ari', '#dimas', '#hamzah', '#rangga', '#tamara', '#yabsir', '#footer']
+let currentSectionIndex = 0;
+
+document.querySelector('#snap-link').addEventListener('click', () => {
+    snapToNextSection(currentSectionIndex)
+})
+
+snapToNextSection(currentSectionIndex)
+function snapToNextSection(sectionIds) {
+    document.querySelector('#snap-link').href = ids[sectionIds]
+    if (currentSectionIndex > 8) {
+        currentSectionIndex = 0
+        return
+    }
+    currentSectionIndex++
+}
