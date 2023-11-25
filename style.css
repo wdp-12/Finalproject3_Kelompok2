@@ -1222,6 +1222,7 @@ body {
   background-color: #ffffff;
   width: 1920px;
   height: 1080px;
+  overflow: hidden;
 }
 
 #footer .overlap-group {
@@ -1243,6 +1244,11 @@ body {
   position: absolute;
   height: 1080px;
   top: 0;
+}
+
+#footer img {
+  filter: blur(15px);
+  transition: all .7s ease-in;
 }
 
 #footer .rectangle-2 {
