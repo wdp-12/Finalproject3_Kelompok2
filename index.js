@@ -146,5 +146,63 @@ document.addEventListener('scroll', () => {
         sec3Member.style.transform = `translate3d( ${divider * 0.1}px, ${divider * 0.2}px, 0)`;
         sec3Num.style.transform = `translate3d( ${divider * 0.1}px, ${divider * 0.2}px, 0)`;
     }
+    
+    // profile
+    if (scrollValue > 2512 && scrollValue < 3739) {
+        const divider = scrollValue - 2512
+        document.querySelector('#section3 .overlap-wrapper').style.transform = `translate3d( 0, ${divider * 0.8}px, 0)`;
+    }
+    if (scrollValue > 2836) {
+        document.querySelector('#section3 .overlap-wrapper').style.filter = `blur(9px)`;
+    } else {
+        document.querySelector('#section3 .overlap-wrapper').style.filter = `blur(0)`;
+    }
 
+    if (scrollValue > 3740 && scrollValue < 4819) {
+        const divider = scrollValue - 3740
+        document.querySelector('#ari .overlap-wrapper').style.transform = `translate3d( 0, ${divider * 0.8}px, 0)`;
+        document.querySelector('#ari .overlap-wrapper').style.filter = `blur(9px)`;
+    } else {
+        document.querySelector('#ari .overlap-wrapper').style.filter = `blur(0)`;
+    }
+
+    if (scrollValue > 4820 && scrollValue < 5899) {
+        const divider = scrollValue - 4820
+        document.querySelector('#dimas .overlap-wrapper').style.transform = `translate3d( 0, ${divider * 0.9}px, 0)`;
+        document.querySelector('#dimas .overlap-wrapper').style.filter = `blur(9px)`;
+    } else {
+        document.querySelector('#dimas .overlap-wrapper').style.filter = `blur(0)`;
+    }
+
+    if (scrollValue > 5900 && scrollValue < 6979) {
+        const divider = scrollValue - 5900
+        document.querySelector('#hamzah .overlap-wrapper').style.transform = `translate3d( 0, ${divider * 0.9}px, 0)`;
+        document.querySelector('#hamzah .overlap-wrapper').style.filter = `blur(9px)`;
+    } else {
+        document.querySelector('#hamzah .overlap-wrapper').style.filter = `blur(0)`;
+    }
+
+    if (scrollValue > 6980 && scrollValue < 8059) {
+        const divider = scrollValue - 6980
+        document.querySelector('#rangga .overlap-wrapper').style.transform = `translate3d( 0, ${divider * 0.9}px, 0)`;
+        document.querySelector('#rangga .overlap-wrapper').style.filter = `blur(9px)`;
+    } else {
+        document.querySelector('#rangga .overlap-wrapper').style.filter = `blur(0)`;
+    }
+
+    if (scrollValue > 8060 && scrollValue < 9139) {
+        const divider = scrollValue - 8060
+        document.querySelector('#tamara .overlap-wrapper').style.transform = `translate3d( 0, ${divider * 0.9}px, 0)`;
+        document.querySelector('#tamara .overlap-wrapper').style.filter = `blur(9px)`;
+    } else {
+        document.querySelector('#tamara .overlap-wrapper').style.filter = `blur(0)`;
+    }
+
+    if (scrollValue > 9140 && scrollValue < 10219) {
+        const divider = scrollValue - 9140
+        document.querySelector('#yabsir .overlap-wrapper').style.transform = `translate3d( 0, ${divider * 0.9}px, 0)`;
+        document.querySelector('#yabsir .overlap-wrapper').style.filter = `blur(9px)`;
+    } else {
+        document.querySelector('#yabsir .overlap-wrapper').style.filter = `blur(0)`;
+    }
 });
