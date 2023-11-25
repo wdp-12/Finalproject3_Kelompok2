@@ -79,3 +79,27 @@ function snapToNextSection(sectionIds) {
     currentSectionIndex++
 }
 
+// ______[Parallax]______
+document.addEventListener('scroll', () => {
+    const scrollValue = window.scrollY;
+    console.log(scrollValue);
+    
+    // section 1
+    if (scrollValue > 0 && scrollValue < 1300) {
+        const divider = scrollValue
+        
+        const heroSec = document.querySelector('#homepage .div');
+        const heroRect = document.querySelector('#homepage .div .overlap .rectangle');
+        const heroImg = document.querySelector('#homepage .div .overlap-2');
+        
+        heroSec.style.transform = `translate3d(${divider * 0.5}px, ${divider * 0.5}px, 0)`;
+        if (divider > 750) {
+            heroSec.style.opacity = '0'
+        } else if (divider < 750) {
+            heroSec.style.opacity = '1'
+        }
+        heroRect.style.transform = `translate3d(-${divider * 0.9}px, ${divider * 0.5}px, 0) rotate(10deg)`;
+        heroImg.style.transform = `translate3d(-${divider * 0.7}px, -${divider * 0.3}px, 0)`;
+    }
+
+});
