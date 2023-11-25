@@ -1,13 +1,39 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kelompok 2 | Team Profile</title>
     <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
-<!--Hero Section-->
+
+    <!-- Preloader -->
+    <div class="preloader">
+        <svg class="tea" width="37" height="48" viewbox="0 0 37 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path
+                d="M27.0819 17H3.02508C1.91076 17 1.01376 17.9059 1.0485 19.0197C1.15761 22.5177 1.49703 29.7374 2.5 34C4.07125 40.6778 7.18553 44.8868 8.44856 46.3845C8.79051 46.79 9.29799 47 9.82843 47H20.0218C20.639 47 21.2193 46.7159 21.5659 46.2052C22.6765 44.5687 25.2312 40.4282 27.5 34C28.9757 29.8188 29.084 22.4043 29.0441 18.9156C29.0319 17.8436 28.1539 17 27.0819 17Z"
+                stroke="var(--colorIcon)" stroke-width="2"></path>
+            <path
+                d="M29 23.5C29 23.5 34.5 20.5 35.5 25.4999C36.0986 28.4926 34.2033 31.5383 32 32.8713C29.4555 34.4108 28 34 28 34"
+                stroke="var(--colorIcon)" stroke-width="2"></path>
+            <path id="teabag" fill="var(--colorIcon)" fill-rule="evenodd" clip-rule="evenodd"
+                d="M16 25V17H14V25H12C10.3431 25 9 26.3431 9 28V34C9 35.6569 10.3431 37 12 37H18C19.6569 37 21 35.6569 21 34V28C21 26.3431 19.6569 25 18 25H16ZM11 28C11 27.4477 11.4477 27 12 27H18C18.5523 27 19 27.4477 19 28V34C19 34.5523 18.5523 35 18 35H12C11.4477 35 11 34.5523 11 34V28Z">
+            </path>
+            <path id="steamL" d="M17 1C17 1 17 4.5 14 6.5C11 8.5 11 12 11 12" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round" stroke="var(--colorIcon)"></path>
+            <path id="steamR" d="M21 6C21 6 21 8.22727 19 9.5C17 10.7727 17 13 17 13" stroke="var(--colorIcon)"
+                stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+        </svg>
+        <p class="pre-title"></p>
+        <p class="pre-text"></p>
+    </div>
+
+    <a id="snap-link" href=""><div class="btn-next">Next Section</div></a>
+
+    <!--Hero Section-->
     <div class="slide" id="homepage">
         <div class="div">
             <div class="overlap">
@@ -24,161 +50,236 @@
             </div>
             <div class="overlap-2">
                 <div class="rectangle-2"></div>
-                <img class="img" src="img/1.jpg" />
                 <div class="rectangle-3"></div>
+                <img class="img" src="img/1.jpg" />
             </div>
             <div class="frame">
-                <div class="text-wrapper-2">Explore</div>
+                <a href="#section2" class="text-wrapper-2">Explore</a>
             </div>
         </div>
     </div>
+
+    <!--Section 2-->
+    <div class="slide" id="section2">
+        <div class="div">
+            <div class="overlap">
+                <div class="rectangle"></div>
+                <img class="img" src="img/2.png" />
+                <div class="rectangle-2"></div>
+                <div class="rectangle-3"></div>
+                <img class="img" src="img/2.png" />
+                <div class="rectangle-4"></div>
+            </div>
+            <div class="overlap-group">
+                <div class="text-wrapper">Members</div>
+                <div class="text-wrapper-2">Started</div>
+                <div class="text-wrapper-3">Year</div>
+                <div class="text-wrapper-4">6</div>
+                <div class="text-wrapper-5">Nov</div>
+                <div class="text-wrapper-6">2023</div>
+            </div>
+            <div class="overlap-group-2">
+                <div class="rectangle-5"></div>
+                <img class="rectangle-6" src="img/3.png" />
+                <div class="rectangle-7"></div>
+            </div>
+            <div class="overlap-2">
+                <p class="s-team">
+                    Hacktive8&#39;s Team 2 consists of six members: Yabsir, Rangga, Tamara, Hamzah, Dimas, and Ari. They
+                    are
+                    currently immersed in developing and designing a dynamic parallax website as part of their
+                    independent
+                    study. Leveraging their diverse skills, the team collaborates to produce innovative design and an
+                    engaging
+                    user experience. In their project, they aim to strike a balance between visual aesthetics and robust
+                    functionality, creating a harmonious digital space.
+                </p>
+                <div class="text-wrapper-7">About Our Team</div>
+            </div>
+        </div>
+    </div>
+
+    <!--Section 3-->
+    <div class="slide" id="section3">
+        <div class="overlap-wrapper">
+            <div class="overlap">
+                <div class="overlap-group">
+                    <div class="rectangle"></div>
+                    <img class="img" src="img/4.png" />
+                    <div class="text-wrapper">Our Members</div>
+                </div>
+                <p class="member">
+                    M. Ari Zidan Sy<br />Muhammad Dimas Erlangga<br />Hamzah Nasrulloh<br />Muhammad Rangga
+                    Saputra<br />Tamara Utami<br />Yabsir Aditya
+                </p>
+                <div class="element">01<br />02<br />03<br />04<br />05<br />06</div>
+            </div>
+        </div>
+    </div>
+
+    <!--Profil Ari-->
+    <div id="ari">
+        <div class="overlap-wrapper">
+            <div class="overlap">
+                <div class="rectangle"></div>
+                <div class="text-wrapper">M. Ari Zidan Syafrizal</div>
+                <p class="bio-ari">
+                    Lamongan, 17 Januari 2002<br /><br />Hobi : Ganti pp
+                    <br /><br />Kontak
+                    :<br />zidanerizal17@gmail.com<br />081529474830<br /><br />Motto
+                    : “Kerja keraslah sampai tetanggamu bilang rezekimu hasil pesugihan.”
+                </p>
+                <div class="div"></div>
+                <div class="group">
+                    <div class="overlap-group">
+                        <img class="img" src="img/ari1.png" />
+                        <div class="rectangle-2"></div>
+                    </div>
+                </div>
+                <img class="rectangle-3" src="img/ari2.png" />
+                <img class="rectangle-4" src="img/ari3.png" />
+            </div>
+        </div>
+    </div>
+
+    <!--Profil Dimas-->
+    <div id="dimas">
+        <div class="overlap-wrapper">
+            <div class="overlap">
+                <div class="rectangle"></div>
+                <div class="text-wrapper">Muhammad Dimas Erlangga</div>
+                <p class="bio-dimas">
+                    Banjarmasin, 12 Oktober 2002<br /><br />Hobi : Mencari kerjaan di tengah kegabutan
+                    <br /><br />Kontak
+                    :<br />rereverseboi@gmail.com<br />087816374799<br /><br />Motto
+                    : “Yang penting yakin”
+                </p>
+                <div class="div"></div>
+                <div class="group">
+                    <div class="overlap-group">
+                        <img class="img" src="img/dimdim1.png" />
+                        <div class="rectangle-2"></div>
+                    </div>
+                </div>
+                <img class="rectangle-3" src="img/dimdim2.png" />
+                <img class="rectangle-4" src="img/dimdim3.png" />
+            </div>
+        </div>
+    </div>
+
+    <!--Profil Hamzah-->
+    <div id="hamzah">
+        <div class="overlap-wrapper">
+            <div class="overlap">
+                <div class="rectangle"></div>
+                <div class="text-wrapper">Hamzah Nasrulloh</div>
+                <p class="bio-hamzah">
+                    Madiun, 24 November 2000<br /><br />Hobi : Menikmati sesuatu yg gabisa digapai
+                    (bermimpi)<br /><br />Kontak
+                    :<br />nasrullohhhamzah@gmail.com<br />085156976626<br /><br />Motto
+                    : “Sepintar apapun kamu jika sainganmu pakai orang dalam, percuma.”
+                </p>
+                <div class="div"></div>
+                <div class="group">
+                    <div class="overlap-group">
+                        <img class="img" src="img/hamzah1.png" />
+                        <div class="rectangle-2"></div>
+                    </div>
+                </div>
+                <img class="rectangle-3" src="img/hamzah2.png" />
+                <img class="rectangle-4" src="img/hamzah3.png" />
+            </div>
+        </div>
+    </div>
+
+    <!--Profil Rangga-->
+    <div id="rangga">
+        <div class="overlap-wrapper">
+            <div class="overlap">
+                <div class="rectangle"></div>
+                <div class="text-wrapper">Muhammad Rangga Saputra</div>
+                <p class="bio-rangga">
+                    Brebes, 11 Juli 2003<br /><br />Hobi : Sing, Reading, Playing Game<br /><br />Kontak
+                    :<br />ranggaargs11@gmail.com<br />088299594835<br /><br />Motto
+                    : “You Need To Belive On Yoursef, THATS CONFIDENT!! ”
+                </p>
+                <div class="div"></div>
+                <div class="group">
+                    <div class="overlap-group">
+                        <img class="img" src="img/rgs1.png" />
+                        <div class="rectangle-2"></div>
+                    </div>
+                </div>
+                <img class="rectangle-3" src="img/rgs2.png" />
+                <img class="rectangle-4" src="img/rgs3.png" />
+            </div>
+        </div>
+    </div>
+    <!--Profil Tamara-->
+    <div id="tamara">
+        <div class="overlap-wrapper">
+            <div class="overlap">
+                <div class="rectangle"></div>
+                <div class="text-wrapper">Tamara Utami Amri</div>
+                <p class="bio-tamara">
+                    Medan, 17 November 2003<br /><br />Hobi : Watching Movie and Music Video<br /><br />Kontak
+                    :<br />tamarautami123@gmail.com<br />082289849125<br /><br />Motto
+                    : “jalani aja dulu, ga ada yang tau kedepannya bakal gimana”
+                </p>
+                <div class="div"></div>
+                <div class="group">
+                    <div class="overlap-group">
+                        <img class="img" src="img/tamara1.png" />
+                        <div class="rectangle-2"></div>
+                    </div>
+                </div>
+                <img class="rectangle-3" src="img/tamara2.png" />
+                <img class="rectangle-4" src="img/tamara3.png" />
+            </div>
+        </div>
+    </div>
+
+    <!--Profil Yabsir-->
+    <div id="yabsir">
+        <div class="overlap-wrapper">
+            <div class="overlap">
+                <div class="rectangle"></div>
+                <div class="text-wrapper">Yabsir Aditya</div>
+                <p class="bio-yabsir">
+                    Wonosobo, 9 Januari 2002<br /><br />Hobi : apa aja<br /><br />Kontak
+                    :<br />yabsir.aditya@gmail.com<br />081380365186<br /><br />Motto
+                    : “Gimana nanti dah...”
+                </p>
+                <div class="div"></div>
+                <div class="group">
+                    <div class="overlap-group">
+                        <img class="img" src="img/yabsir1.png" />
+                        <div class="rectangle-2"></div>
+                    </div>
+                </div>
+                <img class="rectangle-3" src="img/yabsir2.png" />
+                <img class="rectangle-4" src="img/yabsir3.png" />
+            </div>
+        </div>
+    </div>
+
+    <!--Footer-->
+    <div id="footer">
+        <div class="overlap-group-wrapper">
+            <div class="overlap-group">
+                <img class="rectangle" src="img/ari4.png" />
+                <img class="img" src="img/hamzah4.png" />
+                <img class="rectangle-2" src="img/rgs4.png" />
+                <img class="rectangle-3" src="img/tamara4.png" />
+                <img class="rectangle-4" src="img/dimdim4.png" />
+                <img class="rectangle-5" src="img/yabsir4.png" />
+                <div class="div"></div>
+                <div class="thank-you">THANK YOU</div>
+            </div>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
 </body>
 
-<!--Section 2-->
-<div class="slide" id="section2">
-    <div class="div">
-      <div class="overlap">
-        <div class="rectangle"></div>
-        <img class="img" src="img/2.png" />
-        <div class="rectangle-2"></div>
-        <div class="rectangle-3"></div>
-        <img class="img" src="img/2.png" />
-        <div class="rectangle-4"></div>
-      </div>
-      <div class="overlap-group">
-        <div class="text-wrapper">Members</div>
-        <div class="text-wrapper-2">Started</div>
-        <div class="text-wrapper-3">Year</div>
-        <div class="text-wrapper-4">6</div>
-        <div class="text-wrapper-5">Nov</div>
-        <div class="text-wrapper-6">2023</div>
-      </div>
-      <div class="overlap-group-2">
-        <div class="rectangle-5"></div>
-        <img class="rectangle-6" src="img/3.png" />
-        <div class="rectangle-7"></div>
-      </div>
-      <div class="overlap-2">
-        <p class="s-team">
-          Hacktive8&#39;s Team 2 consists of six members: Yabsir, Rangga, Tamara, Hamzah, Dimas, and Ari. They are
-          currently immersed in developing and designing a dynamic parallax website as part of their independent
-          study. Leveraging their diverse skills, the team collaborates to produce innovative design and an engaging
-          user experience. In their project, they aim to strike a balance between visual aesthetics and robust
-          functionality, creating a harmonious digital space.
-        </p>
-        <div class="text-wrapper-7">About Our Team</div>
-      </div>
-    </div>
-  </div>
-
-<!--Section 3-->
-<div class="slide" id="section3">
-    <div class="overlap-wrapper">
-      <div class="overlap">
-        <div class="overlap-group">
-          <div class="rectangle"></div>
-          <img class="img" src="img/4.png" />
-          <div class="text-wrapper">Our Members</div>
-        </div>
-        <p class="member">
-          M. Ari Zidan<br />Muhammad Dimas Erlangga<br />Hamzah Nasrulloh<br />Muhammad Rangga Saputra<br />Tamara Utami<br />Yabsir Aditya
-        </p>
-        <div class="element">01<br />02<br />03<br />04<br />05<br />06</div>
-      </div>
-    </div>
-  </div>
-  
-<!--Profil Ari-->
-
-<!--Profil Dimas-->
-<div id="dimas">
-  <div class="overlap-wrapper">
-    <div class="overlap">
-      <div class="rectangle"></div>
-      <div class="text-wrapper">Muhammad Dimas Erlangga</div>
-      <p class="bio-dimas">
-        Banjarmasin, 12 Oktober 2002<br /><br />Hobi : Mencari kerjaan di tengah kegabutan <br /><br />Kontak
-        :<br />rereverseboi@gmail.com<br />087816374799<br /><br />Motto
-        : “Yang penting yakin”
-      </p>
-      <div class="div"></div>
-      <div class="group">
-        <div class="overlap-group">
-          <img class="img" src="img/dimdim1.png" />
-          <div class="rectangle-2"></div>
-        </div>
-      </div>
-      <img class="rectangle-3" src="img/dimdim2.png" />
-      <img class="rectangle-4" src="img/dimdim3.png" />
-    </div>
-  </div>
-</div>
-
-<!--Profil Hamzah-->
-<div id="hamzah">
-  <div class="overlap-wrapper">
-    <div class="overlap">
-      <div class="rectangle"></div>
-      <div class="text-wrapper">Hamzah Nasrulloh</div>
-      <p class="bio-hamzah">
-        Madiun, 24 November 2000<br /><br />Hobi : Menikmati sesuatu yg gabisa digapai (bermimpi)<br /><br />Kontak
-        :<br />nasrullohhhamzah@gmail.com<br />085156976626<br /><br />Motto
-        : “Sepintar apapun kamu jika sainganmu pakai orang dalam, percuma.”
-      </p>
-      <div class="div"></div>
-      <div class="group">
-        <div class="overlap-group">
-          <img class="img" src="img/hamzah1.png" />
-          <div class="rectangle-2"></div>
-        </div>
-      </div>
-      <img class="rectangle-3" src="img/hamzah2.png" />
-      <img class="rectangle-4" src="img/hamzah3.png" />
-    </div>
-  </div>
-</div>
-
-<!--Profil Rangga-->
-<div id="rangga">
-  <div class="overlap-wrapper">
-    <div class="overlap">
-      <div class="rectangle"></div>
-      <div class="text-wrapper">Muhammad Rangga Saputra</div>
-      <p class="bio-rangga">
-        Brebes, 11 Juli 2003<br /><br />Hobi : Sing, Reading, Playing Game<br /><br />Kontak
-        :<br />ranggaargs11@gmail.com<br />088299594835<br /><br />Motto
-        : “You Need To Belive On Yoursef, THATS CONFIDENT!! ”
-      </p>
-      <div class="div"></div>
-      <div class="group">
-        <div class="overlap-group">
-          <img class="img" src="img/rgs1.png" />
-          <div class="rectangle-2"></div>
-        </div>
-      </div>
-      <img class="rectangle-3" src="img/rgs2.png" />
-      <img class="rectangle-4" src="img/rgs3.png" />
-    </div>
-  </div>
-</div>
-<!--Profil Tamara-->
-
-<!--Profil Yabsir-->
-
-<!--Footer-->
-<div id="footer">
-  <div class="overlap-group-wrapper">
-    <div class="overlap-group">
-      <img class="rectangle" src="img/rectangle-108.svg" />
-      <img class="img" src="img/hamzah4.png" />
-      <img class="rectangle-2" src="img/rgs4.png" />
-      <img class="rectangle-3" src="img/rectangle-112.svg" />
-      <img class="rectangle-4" src="img/rectangle-111.svg" />
-      <img class="rectangle-5" src="img/rectangle-113.svg" />
-      <div class="div"></div>
-      <div class="thank-you">THANK YOU</div>
-    </div>
-  </div>
-</div>
-  </body>
 </html>
