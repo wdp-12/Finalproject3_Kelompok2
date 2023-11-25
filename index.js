@@ -205,4 +205,11 @@ document.addEventListener('scroll', () => {
     } else {
         document.querySelector('#yabsir .overlap-wrapper').style.filter = `blur(0)`;
     }
+
+      // footer
+      if (scrollValue > 9999) {
+        const divider = scrollValue - 9999
+        document.querySelector('#footer .thank-you').style.transform = `translate3d( 0, ${divider * 0.5}px, 0)`;
+    }
+    
 });
