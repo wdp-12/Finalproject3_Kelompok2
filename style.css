@@ -1307,7 +1307,7 @@ body {
 }
 
 
-/* Preloader Style */
+/* Button Snap Style */
 .btn-next {
   position: fixed;
   bottom: 40px;
@@ -1327,6 +1327,30 @@ body {
 .btn-next {
   color: #f67d12;
   text-decoration: none;
+}
+
+.msg-warning {
+  display: none;
+}
+
+@media only screen and (max-width: 768px) {
+  body {
+    overflow: hidden;
+  }
+  
+  .msg-warning {
+    position: fixed;
+    background-color: rgb(22, 22, 22);
+    color: #f1f1f1;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20vw;
+    text-align: center;
+    z-index: 21;
+  }
 }
 
 
