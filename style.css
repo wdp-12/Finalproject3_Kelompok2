@@ -3,7 +3,11 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
   text-decoration: none;
+  border: none;
+  outline: none;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -25,6 +29,7 @@ body {
   width: 1920px;
   height: 1080px;
   position: relative;
+  transition: opacity .3s;
 }
 
 #homepage .overlap {
@@ -52,6 +57,7 @@ body {
   background-color: #f67d12;
   border-radius: 60px;
   transform: rotate(10deg);
+  transition: all .3s;
   z-index: 0;
 }
 
@@ -157,9 +163,10 @@ body {
   gap: 10px;
   padding: 25px 40px;
   position: absolute;
-  top: 903px;
+  top: 763px;
   left: 903px;
   border-radius: 50px;
+  cursor: pointer;
   border: 3px solid;
   border-color: #ffffff;
 }
@@ -168,7 +175,7 @@ body {
   position: relative;
   width: fit-content;
   margin-top: -3px;
-  font-family: "Inter-SemiBold", Helvetica;
+  /* font-family: "Inter-SemiBold", Helvetica; */
   font-weight: 600;
   color: #ffffff;
   font-size: 32px;
@@ -185,6 +192,7 @@ body {
   flex-direction: row;
   justify-content: center;
   width: 100%;
+  padding-bottom: 300px;
 }
 
 #section2 .div {
@@ -192,6 +200,7 @@ body {
   width: 1920px;
   height: 1080px;
   position: relative;
+  transition: opacity .3s;
 }
 
 #section2 .overlap {
@@ -204,13 +213,14 @@ body {
 
 #section2 .rectangle {
   position: absolute;
-  width: 1213px;
-  height: 864px;
-  top: 99px;
-  left: 66px;
+  width: 503px;
+  height: 504px;
+  top: 9px;
+  left: 2566px;
   background-color: #f67d12;
   border-radius: 30px;
   transform: rotate(170deg);
+  transition: all .3s;
   z-index: 0;
 }
 
@@ -256,8 +266,9 @@ body {
   position: absolute;
   width: 740px;
   height: 173px;
-  top: 807px;
+  top: 207px;
   left: 1080px;
+  background-color: #1e1e1e;
   border-radius: 30px;
   border: 3px solid;
   border-color: #f67d12;
@@ -383,7 +394,7 @@ body {
   position: absolute;
   width: 740px;
   height: 607px;
-  top: 100px;
+  top: 160px;
   left: 1080px;
   background-color: #1e1e1e;
   border-radius: 30px;
@@ -422,6 +433,7 @@ body {
   flex-direction: row;
   justify-content: center;
   width: 100%;
+  padding-bottom: 200px;
 }
 
 #section3 .overlap-wrapper {
@@ -479,7 +491,7 @@ body {
 
 #section3 .member {
   position: absolute;
-  top: 1050px;
+  top: 850px;
   left: 321px;
   font-weight: 500;
   color: #f8f8f8;
@@ -490,7 +502,7 @@ body {
 
 #section3 .element {
   position: absolute;
-  top: 1050px;
+  top: 850px;
   left: 892px;
   font-weight: 500;
   color: #f8f8f8;
@@ -556,7 +568,7 @@ body {
   position: absolute;
   width: 750px;
   height: 750px;
-  top: 650px;
+  top: 700px;
   left: 660px;
   background-color: #f67d12;
   border-radius: 60px;
@@ -671,7 +683,7 @@ body {
   position: absolute;
   width: 750px;
   height: 750px;
-  top: 650px;
+  top: 700px;
   left: 660px;
   background-color: #f67d12;
   border-radius: 60px;
@@ -790,7 +802,7 @@ body {
   position: absolute;
   width: 750px;
   height: 750px;
-  top: 650px;
+  top: 700px;
   left: 660px;
   background-color: #f67d12;
   border-radius: 60px;
@@ -907,7 +919,7 @@ body {
   position: absolute;
   width: 750px;
   height: 750px;
-  top: 650px;
+  top: 700px;
   left: 660px;
   background-color: #f67d12;
   border-radius: 60px;
@@ -1022,7 +1034,7 @@ body {
   position: absolute;
   width: 750px;
   height: 750px;
-  top: 650px;
+  top: 700px;
   left: 660px;
   background-color: #f67d12;
   border-radius: 60px;
@@ -1137,7 +1149,7 @@ body {
   position: absolute;
   width: 750px;
   height: 750px;
-  top: 650px;
+  top: 700px;
   left: 660px;
   background-color: #f67d12;
   border-radius: 60px;
@@ -1218,7 +1230,7 @@ body {
 }
 
 #footer .rectangle {
-  width: 320px;
+  width: 310px;
   left: 0;
   position: absolute;
   height: 1080px;
@@ -1226,40 +1238,40 @@ body {
 }
 
 #footer .img {
-  width: 320px;
-  left: 320px;
+  width: 310px;
+  left: 310px;
   position: absolute;
   height: 1080px;
   top: 0;
 }
 
 #footer .rectangle-2 {
-  width: 320px;
-  left: 640px;
+  width: 310px;
+  left: 620px;
   position: absolute;
   height: 1080px;
   top: 0;
 }
 
 #footer .rectangle-3 {
-  width: 320px;
-  left: 1280px;
+  width: 310px;
+  left: 1240px;
   position: absolute;
   height: 1080px;
   top: 0;
 }
 
 #footer .rectangle-4 {
-  width: 320px;
-  left: 960px;
+  width: 310px;
+  left: 930px;
   position: absolute;
   height: 1080px;
   top: 0;
 }
 
 #footer .rectangle-5 {
-  width: 320px;
-  left: 1600px;
+  width: 310px;
+  left: 1550px;
   position: absolute;
   height: 1080px;
   top: 0;
@@ -1290,12 +1302,35 @@ body {
 
 
 /* Preloader Style */
+.btn-next {
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  height: auto;
+  width: auto;
+  padding: 1rem;
+  border: 3px solid #f67d12;
+  background-color: #1e1e1e;
+  border-radius: 15px;
+  cursor: pointer;
+  font-weight: 600;
+  font-family: 'Poppins';
+  z-index: 20;
+}
+
+.btn-next {
+  color: #f67d12;
+  text-decoration: none;
+}
+
+
+/* Preloader Style */
 .preloader {
   position: fixed;
   min-width: 100vw;
   min-height: 100vh;
   z-index: 45;
-  background-color: rgba(0, 0, 0, 0.9);
+  background-color: rgba(0, 0, 0, 0.96);
   opacity: 1;
   display: flex;
   transition: all .8s;
