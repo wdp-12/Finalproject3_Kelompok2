@@ -129,4 +129,22 @@ document.addEventListener('scroll', () => {
         }
     }
 
+    // section 3
+    if (scrollValue > 1860 && scrollValue < 2900) {
+        const divider = scrollValue - 1860
+
+        const sec3 = document.querySelector('#section3 .overlap-wrapper');
+        const sec3RectOrange = document.querySelector('#section3 .overlap .rectangle');
+        const sec3Img = document.querySelector('#section3 .overlap .img');
+        const sec3Title = document.querySelector('#section3 .overlap .text-wrapper');
+        const sec3Member = document.querySelector('#section3 .overlap .member');
+        const sec3Num = document.querySelector('#section3 .overlap .element');
+
+        sec3RectOrange.style.transform = `translate3d(${divider * 0.3}px , ${divider * 0.3}px, 0) rotate(${divider * 0.1 + 110}deg)`;
+        sec3Img.style.transform = `translate3d(-${divider * 0.1}px , -${divider * 0.1}px, 0)`;
+        sec3Title.style.transform = `translate3d( ${divider * 0.3}px, ${divider * 0.1}px, 0)`;
+        sec3Member.style.transform = `translate3d( ${divider * 0.1}px, ${divider * 0.2}px, 0)`;
+        sec3Num.style.transform = `translate3d( ${divider * 0.1}px, ${divider * 0.2}px, 0)`;
+    }
+
 });
